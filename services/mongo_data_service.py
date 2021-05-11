@@ -1,6 +1,4 @@
 from models.certificate.certificate import Certificate
-from models.course.course import Course
-from mongoengine import DoesNotExist, NotUniqueError
 import logging
 
 logger = logging.getLogger(__name__)

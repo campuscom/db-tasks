@@ -13,9 +13,9 @@ def main():
     for cert in certificates:
         old_list = []
         new_list = []
-        print(cert.id)
+        print("Certificate: "+cert.id)
         for career in cert.careers:
-            print(career.id)
+            print("Career: "+career.id)
             old_list.append(career)
             if hasattr(career, 'name'):
                 print(career.name)
